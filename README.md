@@ -1,4 +1,4 @@
-# Shopee Cart
+# Cart
 
 
 <br>
@@ -10,14 +10,15 @@
 
 ## Requirements
 * NodeJS 14.x or higher
-* Angular 11.x or higher / Latest AngularJS, VueJS or React
+* Angular 11.x or higher / Latest AngularJS (bonus points if you did this)
 * Github account
 
 ## Getting Started
 * fork the repository
-* create a feature branch `git checkout -b feature/<any-feature-you-want>`
+* Make it private repository
+* add user `btoaelbore` as Collaborator
 * update this `README` file to include the installation guide
-* create a Pull Request to this repository
+* DONT CREATE PULL REQUEST
 
 ## Installation
 * `You Installation Guide Here`
@@ -28,6 +29,7 @@ Please see the Attached `gif` for the Design
   * Product Name, 
   * Description 
   * Price of the Product
+  * In Stock (Should be hidden in UI)
 * On Each Product it should have "Add to Cart" button
 * When i click the "Add to Cart" button it should
   * Add to Cart List
@@ -49,4 +51,5 @@ Please see the Attached `gif` for the Design
 * If you have questions and concerns you can create discussion, Go to "Discussion" tab then create New
 * Data should only in the client side you can use `localStorage`, `Singleton variable`, or `state management` library
 * Don't over Architect it
+
 
