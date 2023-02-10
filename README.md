@@ -11,7 +11,6 @@
 ## Requirements
 * NodeJS 16.x or higher
 * Angular 11.x or higher / Latest AngularJS (bonus points if you did this)
-* DON'T use any 3rd party UI library i.e Material Design or Bootstrap
 * Github account
 
 ## Getting Started
@@ -19,7 +18,10 @@
 * Make it private repository
 * add user `btoaelbore` as Collaborator
 * update this `README` file to include the installation guide
-* DONT CREATE PULL REQUEST
+
+## IMPORTANT
+* DON'T CREATE PULL REQUEST
+* DON'T use any 3rd party UI library i.e Material Design or Bootstrap
 
 ## Installation
 * `You Installation Guide Here`
