@@ -9,7 +9,7 @@
 <br>
 
 ## Requirements
-* NodeJS 14.x or higher
+* NodeJS 16.x or higher
 * Angular 11.x or higher / Latest AngularJS (bonus points if you did this)
 * Github account
 
