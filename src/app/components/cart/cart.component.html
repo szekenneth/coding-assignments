@@ -1,0 +1,11 @@
+<div class="products-all" *ngIf="productsCart.length > 0">
+  <div class="product-row" *ngFor="let product of productsCart, let i = index">
+    <div *ngIf="product.inCart > 0" class="product-name">
+      <span class="product-name-span">{{product.name}} - {{product.price}} ({{product.inCart}})</span>
+    </div>
+    <div class="product-button">
+      <button class="product-action" (click)="removeFromCart(product)">Remove from Cart</button>
+    </div>
+  </div>
+</div>
+<div class="cart-empty" *ngIf="productsCart.length === 0">No Item in the Cart!</div>

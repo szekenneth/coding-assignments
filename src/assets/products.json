@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Gaming Mouse",
+    "price": 29.99,
+    "stock": 100
+  },
+  {
+    "id": 2,
+    "name": "Harry Potter 3",
+    "price": 9.99,
+    "stock": 200
+  },
+  {
+    "id": 3,
+    "name": "Used plastic bottle",
+    "price": 0.99,
+    "stock": 300
+  },
+  {
+    "id": 4,
+    "name": "Half-dried plant",
+    "price": 2.99,
+    "stock": 400
+  }
+]

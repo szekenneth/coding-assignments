@@ -24,7 +24,11 @@
 * DON'T use any 3rd party UI library i.e Material Design or Bootstrap
 
 ## Installation
-* `You Installation Guide Here`
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+* Install required packages using `npm install` on currect directory.
+* Development server
+  * Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Create Simple Shopping Cart 
 Please see the Attached `gif` for the Design

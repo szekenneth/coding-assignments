@@ -1,0 +1,8 @@
+<div class="home">
+  <div class="header">
+    <button [ngClass]="{'active': activeTab === 1}" (click)="switchTab(1)">Products</button>
+    <button [ngClass]="{'active': activeTab === 2}" (click)="switchTab(2)">Cart ({{cartTotal()}})</button>
+  </div>
+  <app-products *ngIf="activeTab === 1"></app-products>
+  <app-cart *ngIf="activeTab === 2"></app-cart>
+</div>

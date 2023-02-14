@@ -1,0 +1,24 @@
+.home {
+  font-family: Tahoma;
+}
+
+.header {
+  width: 100%;
+  background-color: seagreen;
+  text-align: center;
+}
+
+.header button {
+  background-color: seagreen;
+  border: 0px;
+  border-radius: 5px;
+  width: 150px;
+  margin: 15px;
+  padding: 5px;
+  color: white;
+}
+
+.header button:hover, .header button.active {
+  background-color: white;
+  color: black;
+}

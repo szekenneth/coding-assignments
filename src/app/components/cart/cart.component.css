@@ -1,0 +1,40 @@
+.products-all {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-row {
+  display: flex;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.product-name {
+  width: 50%;
+  padding: 20px;
+}
+
+.product-button {
+  width: 50%;
+  padding: 20px;
+  text-align: right;
+}
+
+.product-action {
+  background-color: darkblue;
+  color: white;
+}
+
+.product-action:hover {
+  background-color: white;
+  color: darkblue;
+}
+
+.cart-empty {
+  margin-top: 20px;
+  text-align: center;
+}
